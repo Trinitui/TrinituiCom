@@ -1,6 +1,0 @@
-{
-  "scripts": {
-    "build": "install hugo && hugo",
-    "dev": "hugo server"
-  }
-}
