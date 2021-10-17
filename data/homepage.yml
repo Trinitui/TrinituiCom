@@ -1,0 +1,80 @@
+---
+banner:
+  title: Andrew Whelan
+social:
+  twitter: ""
+  linkedin: andrewmwhelan
+  github: Trinitui
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: andrewmwhelan9
+about:
+  enable: true
+  content: Data Science student at Northwestern University, experienced Project Manager
+  button:
+    btnText: Find out more
+    URL: "/about"
+skill:
+  enable: true
+  item:
+    - title: JavaScript
+      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      description: Experience using JS to build front-ends with React and back-end work, such as mongodb integrations, as well.
+    - title: MongoDB
+      logo: https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg
+      description: Maintained a MongoDB instance hosting launch information for RocketLab, and an API that provides that information publically.
+    - title: Python
+      logo: https://www.python.org/static/community_logos/python-powered-h.svg
+      description: Python is great and I use it for a lot of projects. 
+    - title: Jupyter
+      logo: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
+      description: Experience using Jupyter to load, visualize, transform, and build models from data.
+    - title: Git
+      logo: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
+      description: Coming Soon
+experience:
+  enable: true
+  item:
+    - logo: https://i.imgur.com/o0qSlpF.png
+      title: Project Manager
+      company: BioRAFT
+      duration: Since 2018
+    - logo: https://i.imgur.com/FLgLSSl.jpg
+      title: Project Manager
+      company: Structure Consulting Group
+      duration: 2015 - 2018
+certifications:
+  enable: true
+  item:
+    - title: Data Science
+      image: https://i.imgur.com/vQB6wNm.png
+      url: https://drive.google.com/file/d/1SEHExDVA-SA5IR4aGXkLiyuYRupcGsTl/view?usp=sharing
+    - title: Front End Libraries
+      image: https://i.imgur.com/2BSnhEf.png
+      url: https://www.freecodecamp.org/certification/trinitui/front-end-libraries
+    - title: JavaScript Algorithms and Data Structures
+      image: https://i.imgur.com/2BSnhEf.png
+      url: https://www.freecodecamp.org/certification/trinitui/javascript-algorithms-and-data-structures
+education:
+  enable: true
+  item:
+    - title: BS in Chemistry
+      year: 2008 - 2012
+      academy: Saint Michael's College
+      image: https://ih1.redbubble.net/image.2406277312.2068/st,small,507x507-pad,600x600,f8f8f8.jpg
+    - title: MS in Data Science
+      year: 2021 - 
+      academy: Northwestern University
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Northwestern_Wildcats_logo.svg/1330px-Northwestern_Wildcats_logo.svg.png
+leadership:
+  enable: true
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
+      title: Young Leader
+      company: The Scout Association
+      duration: September 2014 - July 2018
+portfolio:
+  filter:
+    - label: Web Dev
+      value: web-dev
