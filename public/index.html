@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>Sam Robbins</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="I&#39;m a second year Computer Science student at Durham">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Andrew">
+  <meta name="generator" content="Hugo 0.88.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <link rel="alternate" type="application/rss+xml" href="https://example.com/index.xml" title="Sam Robbins" />
+<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li class="uk-active "><a style="font-size: 18px; text-transform: none"
+                        href="https://example.com"> Home </a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/blog">Blog</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/portfolio">Portfolio</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/contact">Contact</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li class="uk-active"><a style="font-size: 18px" href="https://example.com"> Home </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/blog">Blog</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/contact">Contact</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Hexagon Stylesheet -->
+
+<link rel="stylesheet" href="/css/hexagon.min.css">
+
+<!-- Index -->
+
+<link rel="stylesheet" href="/css/index.min.css">
+
+<section>
+    <div class="uk-container uk-margin-xlarge-top uk-margin-xlarge-bottom">
+
+        <h1 class="uk-heading-large">Andrew Whelan</h1>
+    </div>
+
+
+</section>
+
+<div class="uk-text-center uk-margin-xlarge-bottom uk-margin-xlarge-top">
+    <ul id="links" class="icons">
+        
+        
+         
+        <li><a href="https://www.linkedin.com/in/andrewmwhelan">
+            <img class="contain" src="https://cdn.svgporn.com/logos/linkedin.svg" alt="LinkedIn" loading="lazy"> </a></li>
+         
+        <li><a href="https://github.com/Trinitui"> <img
+                    class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub" loading="lazy"> </a></li>
+           
+        <li><a href="mailto:andrewmwhelan9@gmail.com" > <img
+                    class="contain" src="https://cdn.svgporn.com/logos/google-gmail.svg" alt="Gmail" loading="lazy"></a></li>
+        
+    </ul>
+
+
+</div>
+
+
+
+
+
+<section class="uk-margin-large-top">
+    <div class="uk-container">
+        <div class="uk-text-center">
+            
+            <p class="uk-text-lead">Data Science student at Northwestern University, experienced Project Manager</p>
+            
+            <a class="uk-button uk-button-text" href="https://example.com/about">Find out more</a>
+            
+            
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="JavaScript" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">JavaScript</h2>
+        </div>
+        <p>Experience using JS to build front-ends with React and back-end work, such as mongodb integrations, as well.</p>
+    </div>
+</div>
+
+<div id="MongoDB" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">MongoDB</h2>
+        </div>
+        <p>Maintained a MongoDB instance hosting launch information for RocketLab, and an API that provides that information publically.</p>
+    </div>
+</div>
+
+<div id="Python" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Python</h2>
+        </div>
+        <p>Python is great and I use it for a lot of projects.</p>
+    </div>
+</div>
+
+<div id="Jupyter" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Jupyter</h2>
+        </div>
+        <p>Experience using Jupyter to load, visualize, transform, and build models from data.</p>
+    </div>
+</div>
+
+<div id="Git" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Git</h2>
+        </div>
+        <p>Coming Soon</p>
+    </div>
+</div>
+
+
+<section class="uk-margin-large-top uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to find out more</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+            uk-grid>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #JavaScript">
+                <h4>JavaScript</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #MongoDB">
+                <h4>MongoDB</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://www.python.org/static/community_logos/python-powered-h.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #Python">
+                <h4>Python</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #Jupyter">
+                <h4>Jupyter</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #Git">
+                <h4>Git</h4>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
+
+        <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://i.imgur.com/o0qSlpF.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">Project Manager</h3>
+                        </div>
+                        <p style="height: 4em">BioRAFT</p>
+                        <p>Since 2018</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://i.imgur.com/FLgLSSl.jpg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">Project Manager</h3>
+                        </div>
+                        <p style="height: 4em">Structure Consulting Group</p>
+                        <p>2015 - 2018</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-top uk-margin-medium-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Certifications</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to view the proof</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+             uk-grid >
+            
+            <a href="https://drive.google.com/file/d/1SEHExDVA-SA5IR4aGXkLiyuYRupcGsTl/view?usp=sharing" class="imagemargin">
+                <img class="contain certs" src="https://i.imgur.com/vQB6wNm.png" alt="Data Science" loading="lazy" style="cursor: pointer">
+                Data Science
+            </a>
+
+            
+            <a href="https://www.freecodecamp.org/certification/trinitui/front-end-libraries" class="imagemargin">
+                <img class="contain certs" src="https://i.imgur.com/2BSnhEf.png" alt="Front End Libraries" loading="lazy" style="cursor: pointer">
+                Front End Libraries
+            </a>
+
+            
+            <a href="https://www.freecodecamp.org/certification/trinitui/javascript-algorithms-and-data-structures" class="imagemargin">
+                <img class="contain certs" src="https://i.imgur.com/2BSnhEf.png" alt="JavaScript Algorithms and Data Structures" loading="lazy" style="cursor: pointer">
+                JavaScript Algorithms and Data Structures
+            </a>
+
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-xlarge-bottom">
+    <div class="uk-container">
+
+        <h1 class="uk-heading-line uk-heading-medium  uk-margin-large-bottom"><span>Education</span></h1>
+
+
+        <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://ih1.redbubble.net/image.2406277312.2068/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Saint Michael&#39;s College</h3>
+                        </div>
+                        <p style="height: 4em">BS in Chemistry</p>
+                        <p>2008 - 2012</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Northwestern_Wildcats_logo.svg/1330px-Northwestern_Wildcats_logo.svg.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Northwestern University</h3>
+                        </div>
+                        <p style="height: 4em">MS in Data Science</p>
+                        <p>2021 -</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:andrewmwhelan9@gmail.com">andrewmwhelan9@gmail.com</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+                  <div uk-lightbox>
+                    <a href="https://goo.gl/maps/FBe1HTT95JxQpRBNA" data-caption="Walpole, MA"
+                      data-type="iframe">Walpole, MA</a>
+      </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+    2020
+    Andrew
+
+
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
