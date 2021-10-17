@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "install golang1.11 && hugo",
+    "build": "hugo",
     "dev": "hugo server"
   }
 }
